@@ -1,0 +1,8 @@
+<script type="text/javascript">
+    var cdf = new cdf_plugin(); 
+    var defaultContent = xx_altcont_xx;
+    if(defaultContent != "") {
+        cdf.setDefaultContent(defaultContent);
+    }
+    cdf.embed("xx_source_xx", xx_CDFwidth_xx, xx_CDFheight_xx);
+</script>
